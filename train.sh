@@ -20,11 +20,11 @@
 #CUDA_VISIBLE_DEVICES=0 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --ps_coef 0 --flag E2_L10_WO_PS --model_name GPT2 --incontext > train_log_focus/e2_L20_gpt_WO_PS.log &
 #CUDA_VISIBLE_DEVICES=1 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --ps_coef 0 --flag E2_L10_WO_PS --model_name BART --incontext > train_log_focus/e2_L20_bart_WO_PS.log &
 
-#ablation for reviewer 2
-CUDA_VISIBLE_DEVICES=4 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-6 --flag E2_L10_lr6 --model_name GPT2 --incontext > ablation/e2_L20_gpt_lr6.log &
-CUDA_VISIBLE_DEVICES=5 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-6 --flag E2_L10_lr6 --model_name BART --incontext > ablation/e2_L20_bart_lr6.log &
-CUDA_VISIBLE_DEVICES=6 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-4 --flag E2_L10_lr4 --model_name GPT2 --incontext > ablation/e2_L20_gpt_lr4.log &
-CUDA_VISIBLE_DEVICES=7 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-4 --flag E2_L10_lr4 --model_name BART --incontext > ablation/e2_L20_bart_lr4.log &
+##ablation
+#CUDA_VISIBLE_DEVICES=4 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-6 --flag E2_L10_lr6 --model_name GPT2 --incontext > ablation/e2_L20_gpt_lr6.log &
+#CUDA_VISIBLE_DEVICES=5 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-6 --flag E2_L10_lr6 --model_name BART --incontext > ablation/e2_L20_bart_lr6.log &
+#CUDA_VISIBLE_DEVICES=6 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-4 --flag E2_L10_lr4 --model_name GPT2 --incontext > ablation/e2_L20_gpt_lr4.log &
+#CUDA_VISIBLE_DEVICES=7 nohup python train_focus.py --n_epochs 2 --lm_coef 10 --lr 6.25e-4 --flag E2_L10_lr4 --model_name BART --incontext > ablation/e2_L20_bart_lr4.log &
 
 echo
 
