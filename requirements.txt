@@ -1,0 +1,4 @@
+setproctitle==1.2.1
+tensorboardX==2.1
+transformers==4.5.0
+
