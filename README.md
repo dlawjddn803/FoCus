@@ -1,4 +1,8 @@
-#Baseline Models of FoCus Dataset 
+# Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge
+---
+Source code for the baseline models of **Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge**, accepted at AAAI-22
+[paper][https://arxiv.org/abs/2112.08619]
+
 
 ### Environment Setting
 We trained the models under the setting of python==3.7, torch==1.5.0, transformers==4.5.0, tensorboardX==2.1, etc.
