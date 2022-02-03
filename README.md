@@ -1,7 +1,7 @@
 # Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge
----
-Source code for the baseline models of **Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge**, accepted at AAAI-22
-[paper: Arxiv ver.](https://arxiv.org/abs/2112.08619)
+* * *  
+Source code for the baseline models of **Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge**, accepted at AAAI-22.
+[[paper](https://arxiv.org/abs/2112.08619)]
 
 
 ### Environment Setting
