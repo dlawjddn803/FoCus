@@ -7,7 +7,6 @@ from argparse import ArgumentParser
 from pprint import pformat
 import warnings
 from torch.nn import Sigmoid, Softmax
-import tqdm
 import torch
 import torch.nn.functional as F
 from data_utils import get_testdata_loaders, add_special_tokens_
